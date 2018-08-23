@@ -1,0 +1,6 @@
+framework module Pods_splash_screen_demo {
+  umbrella header "Pods-splash-screen-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
