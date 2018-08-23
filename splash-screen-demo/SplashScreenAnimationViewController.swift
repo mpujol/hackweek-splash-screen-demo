@@ -54,7 +54,7 @@ class SplashScreenAnimationViewController: UIViewController {
 
         quoteAuthorLabel.text = quote.author.uppercased()
         
-        logoAnimation = LOTAnimationView(name: "IGNSplashScreenFullwithCircleEnd")
+        logoAnimation = LOTAnimationView(name: "Carrot_Splash")
         if let logoAnimation = logoAnimation {
             logoAnimation.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             logoAnimation.contentMode = .scaleAspectFill

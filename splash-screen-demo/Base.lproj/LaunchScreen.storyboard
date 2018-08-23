@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carrot" translatesAutoresizingMaskIntoConstraints="NO" id="Txo-hO-3aO">
-                                <rect key="frame" x="133.5" y="280" width="107" height="107"/>
+                                <rect key="frame" x="139" y="285.5" width="96" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Txo-hO-3aO" secondAttribute="height" multiplier="1:1" id="bYt-Fu-Lso"/>
                                 </constraints>
@@ -31,7 +31,7 @@
                         <constraints>
                             <constraint firstItem="Txo-hO-3aO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XNP-Dv-pix"/>
                             <constraint firstItem="Txo-hO-3aO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZJU-jt-BBy"/>
-                            <constraint firstAttribute="width" secondItem="Txo-hO-3aO" secondAttribute="width" multiplier="3.5" id="v5k-iK-dYe"/>
+                            <constraint firstAttribute="width" secondItem="Txo-hO-3aO" secondAttribute="width" multiplier="3.9" id="v5k-iK-dYe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -15,8 +15,6 @@ class RootViewController: UIViewController, UIGestureRecognizerDelegate,UIScroll
     @IBOutlet weak var refreshView: UIView!
     private var refreshAnimation: LOTAnimationView?
     
-    let demoAnimationStrings = ["","Sonar","Mushroom","Pokeball"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,7 +27,7 @@ class RootViewController: UIViewController, UIGestureRecognizerDelegate,UIScroll
     
     func setupStatusBarView() {
         let statusBarView = UIView(frame: UIApplication.shared.statusBarFrame)
-        statusBarView.backgroundColor = UIColor(red: 191/255, green: 19/255, blue: 19/255, alpha: 1)
+        statusBarView.backgroundColor = UIColor.orange
         view.addSubview(statusBarView)
     }
         
@@ -72,7 +70,7 @@ class RootViewController: UIViewController, UIGestureRecognizerDelegate,UIScroll
         self.refreshView.addGestureRecognizer(UITapRecognizer)
         self.refreshView.isUserInteractionEnabled = true
         
-        refreshView.backgroundColor = UIColor(displayP3Red: 191/255, green: 19/255, blue: 19/255, alpha: 1)
+        refreshView.backgroundColor = UIColor.orange
         refreshView.layer.cornerRadius = refreshView.frame.height / 2
         
     }

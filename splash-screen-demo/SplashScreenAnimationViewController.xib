@@ -35,9 +35,6 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash Loading" translatesAutoresizingMaskIntoConstraints="NO" id="kwY-yB-dOy">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJE-bn-Te6">
                     <rect key="frame" x="18" y="630" width="339" height="15"/>
                     <fontDescription key="fontDescription" name="DINRoundPro-Bold" family="DINRoundPro-Bold" pointSize="12"/>
@@ -63,7 +60,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.74901960779999999" green="0.074509803920000006" blue="0.074509803920000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="1" green="0.57647058823529407" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="iJE-bn-Te6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="DA4-zu-29y"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="iJE-bn-Te6" secondAttribute="bottom" constant="22" id="GcT-HF-A1o"/>
@@ -71,19 +68,12 @@
                 <constraint firstItem="iJE-bn-Te6" firstAttribute="top" secondItem="rcZ-jy-xgU" secondAttribute="bottom" constant="14" id="LRe-VS-IMJ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iJE-bn-Te6" secondAttribute="trailing" constant="18" id="PEq-Jk-hB6"/>
                 <constraint firstItem="6ws-2B-gly" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Q7c-dE-PZz"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kwY-yB-dOy" secondAttribute="bottom" id="R0y-cE-PDT"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kwY-yB-dOy" secondAttribute="trailing" id="Ruu-dB-Bjg"/>
                 <constraint firstItem="6ws-2B-gly" firstAttribute="top" secondItem="AEI-Mu-5F4" secondAttribute="bottom" constant="6" id="SH7-QJ-QM5"/>
-                <constraint firstItem="kwY-yB-dOy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hJ2-zT-jXk"/>
                 <constraint firstItem="AEI-Mu-5F4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.235" id="hkK-eI-mr8"/>
-                <constraint firstItem="kwY-yB-dOy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mnF-Qw-WxF"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rcZ-jy-xgU" secondAttribute="trailing" constant="18" id="oaW-Xs-QlB"/>
                 <constraint firstItem="AEI-Mu-5F4" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="vDP-41-54k"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
-    <resources>
-        <image name="Splash Loading" width="750" height="1334"/>
-    </resources>
 </document>
