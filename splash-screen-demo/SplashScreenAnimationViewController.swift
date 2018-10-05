@@ -16,7 +16,7 @@ class SplashScreenAnimationViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     private var logoAnimation: LOTAnimationView?
     
-    var animationSpeedFactor: CGFloat = 0.8 // 1 is default
+    var animationSpeedFactor: CGFloat = 1.0 // 1 is default
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,7 +72,11 @@ class SplashScreenAnimationViewController: UIViewController {
                     logoAnimation.play(fromFrame: 45, toFrame: 49, withCompletion: { (finished: Bool) in
                         logoAnimation.animationSpeed = (2 * self.animationSpeedFactor)
                         logoAnimation.play(fromFrame: 49, toFrame: 60, withCompletion: { (finished: Bool) in
-                            animationComplete()
+                            UIView.animate(withDuration: 0.1, animations: {
+                                self.view.alpha = 0
+                            }, completion: { (finished) in
+                                animationComplete()
+                            })
                         })
                     })
                     
