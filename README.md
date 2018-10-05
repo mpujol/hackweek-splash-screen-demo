@@ -1,4 +1,4 @@
-# Hackweek Project: Splash Screen Revamp
+# Hack Week Project: Splash Screen Revamp
 
 Using Lottie (An open sourced project), I was able to create a dynamic user experience when opening an app.
 
